@@ -1,1 +1,15 @@
-LOTROHelloWorld.plugin
+<?xml version="1.0" encoding="UTF-8"?>
+<Plugin>
+    <Information>
+        <Name>HelloWorld</Name>
+        <Author>YourName</Author>
+        <Description>A simple LOTRO plugin that displays a Hello World window.</Description>
+        <Version>1.0</Version>
+    </Information>
+
+    <Package>
+        <Source>hello.lua</Source>  <!-- Make sure this matches your Lua file's name -->
+        <Namespace>HelloWorld</Namespace>
+    </Package>
+</Plugin>
+
